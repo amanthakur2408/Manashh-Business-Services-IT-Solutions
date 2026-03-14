@@ -69,7 +69,17 @@ margin-bottom:15px;
     padding:100px 0;
     text-align:center;
 }
+.about-container{
+display:flex;
+gap:40px;
+align-items:center;
+padding:70px 10%;
+}
 
+.about-container img{
+width:400px;
+border-radius:8px;
+}
 .hero h2{
     font-size:36px;
     color:#0077cc;

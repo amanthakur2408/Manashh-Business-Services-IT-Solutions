@@ -60,6 +60,46 @@ justify-content:center;
 text-align:center;
 color:white;
 }
+.hero{
+background:#1c5574;
+color:white;
+padding:80px 10%;
+}
+
+.hero-container{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:50px;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero-text p{
+font-size:18px;
+margin-bottom:25px;
+}
+
+.hero-image img{
+width:450px;
+border-radius:10px;
+}
+
+.btn{
+background:white;
+color:#1c5574;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
 
 .hero-text{
 background:rgba(0,0,0,0.45);

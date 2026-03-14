@@ -47,6 +47,35 @@ nav ul li a{
     color:#333;
 }
 .hero{
+height:90vh;
+
+background-image:url("images/hero.jpg");
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+text-align:center;
+color:white;
+}
+
+.hero-text{
+background:rgba(0,0,0,0.45);
+padding:40px;
+border-radius:10px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+}
+.hero{
 height:85vh;
 display:flex;
 align-items:center;

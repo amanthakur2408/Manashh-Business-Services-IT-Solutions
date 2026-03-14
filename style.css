@@ -48,7 +48,10 @@ padding:80px 8%;
 background:linear-gradient(to right,#0f4c75,#3282b8);
 color:white;
 }
-
+.service-box img{
+width:70px;
+margin-bottom:15px;
+}
 .hero-container{
 display:flex;
 align-items:center;

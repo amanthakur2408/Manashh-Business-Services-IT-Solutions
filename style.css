@@ -15,7 +15,45 @@ header{
     border-bottom:1px solid #eee;
     padding:20px 0;
 }
+.hero{
+height:100vh;
 
+background-image:url("images/hero.jpg");
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+text-align:center;
+color:white;
+}
+
+.hero-overlay{
+background:rgba(0,0,0,0.45);
+padding:40px;
+border-radius:10px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:25px;
+}
+
+.hero-btn{
+background:white;
+color:#1c5574;
+padding:12px 30px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
 .logo{
     color:#0077cc;
 }
